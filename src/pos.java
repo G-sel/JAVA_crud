@@ -155,6 +155,7 @@ public class pos {
 		panel.add(priceTxt);
 		
 		JButton btnNewButton = new JButton("Save");
+		btnNewButton.setForeground(new Color(0, 0, 102));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -190,6 +191,7 @@ public class pos {
 		panel.add(btnNewButton);
 		
 		JButton btnExit = new JButton("Exit");
+		btnExit.setForeground(new Color(0, 0, 102));
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -208,6 +210,7 @@ public class pos {
 		panel.add(btnExit);
 		
 		JButton btnClear = new JButton("Clear");
+		btnClear.setForeground(new Color(0, 0, 102));
 		btnClear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 //				String bookName, edition, price, bookId;
@@ -294,6 +297,7 @@ public class pos {
 		panel_2.add(idTxt);
 		
 		JButton btnDelete = new JButton("Delete");
+		btnDelete.setForeground(new Color(0, 0, 102));
 		btnDelete.setBounds(475, 11, 88, 29);
 		panel_2.add(btnDelete);
 		btnDelete.addActionListener(new ActionListener() {
@@ -324,6 +328,7 @@ public class pos {
 		btnDelete.setBackground(UIManager.getColor("Button.disabledShadow"));
 		
 		JButton btnUpdate = new JButton("Update");
+		btnUpdate.setForeground(new Color(0, 0, 102));
 		btnUpdate.setBounds(377, 11, 88, 29);
 		panel_2.add(btnUpdate);
 		btnUpdate.addKeyListener(new KeyAdapter() {
