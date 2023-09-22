@@ -240,7 +240,7 @@ public class pos {
 		
 		JPanel panel_2 = new JPanel();
 		panel_2.setBackground(SystemColor.activeCaption);
-		panel_2.setBorder(new TitledBorder(null, "Search", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(128, 0, 255)));
+		panel_2.setBorder(new TitledBorder(new EtchedBorder(EtchedBorder.LOWERED, new Color(255, 255, 255), new Color(160, 160, 160)), "Search", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 0, 160)));
 		panel_2.setBounds(10, 230, 592, 50);
 		frame.getContentPane().add(panel_2);
 		panel_2.setLayout(null);
