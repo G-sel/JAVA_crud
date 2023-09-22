@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+ interface Java_CRUD {
+}
