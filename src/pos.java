@@ -124,7 +124,7 @@ public class pos {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel_1 = new JLabel("Name:");
+		JLabel lblNewLabel_1 = new JLabel("Book Name:");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		lblNewLabel_1.setBounds(10, 32, 46, 14);
 		panel.add(lblNewLabel_1);
